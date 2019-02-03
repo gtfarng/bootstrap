@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Bootstrap tutorials by Siam HTML</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<h3><a href="https://getbootstrap.com/2.3.2/base-css.html#tables">Base CSS-Bootstrap</a></h3>
+<h3><a href="https://getbootstrap.com/2.3.2/javascript.html">Base JS-Bootstrap</a></h3>
+
+
+<br><br>
+<ul>
+    <li>
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li>
+        <a href="#">Messages</a>
+    </li>
+</ul>
+
+<br><br>
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li>
+        <a href="#">Messages</a>
+    </li>
+</ul>
+
+<br><br>
+<ul class="nav nav-pills">
+    <li class="active">
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li>
+        <a href="#">Messages</a>
+    </li>
+</ul>
+
+
+
+<br><br>
+<ul class="nav nav-list">
+    <li class="active">
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Profile</a>
+    </li>
+    <li>
+        <a href="#">Messages</a>
+    </li>
+</ul>
+
+<br><br>
+<div id="myModal" class="modal hide">
+    <p>Bootstrap tutorials by GTfarng</p>
+</div>
+<a href="#" class="btn">Launch modal</a>
+<script type="text/javascript">
+$(function()
+{
+    $('.btn').click(function(){
+        $('#myModal').modal();
+    });
+});
+</script>
+
+
+<br><br>
+
+<a href="#" class="btn" data-toggle="modal" data-target="#myModal">Launch modal</a>
+<div id="myModal" class="modal hide">
+    <p>Bootstrap tutorials by GTfarng</p>
+</div>
+
+
+</body>
+</html>
